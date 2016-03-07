@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+
+<log4j:configuration debug="false">
+
+	<appender name="ERROR_LOG_FILE" class="org.apache.log4j.FileAppender">
+		<param name="File" value="ErrorLog.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd hh:mm:ss,SSS}  %5p [%t] %c [%M] - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="com.msdbikespot.business">
+		<level value="debug" />
+		<appender-ref ref="ERROR_LOG_FILE" />
+	</logger>
+	<logger name="com.msdbikespot.dao">
+		<level value="debug" />
+		<appender-ref ref="ERROR_LOG_FILE" />
+	</logger>
+	<logger name="com.msdbikespot.resources">
+		<level value="debug" />
+		<appender-ref ref="ERROR_LOG_FILE" />
+	</logger>
+
+</log4j:configuration> 

@@ -1,0 +1,81 @@
+In add event
+awesome
+2015-01-21 
+2015-02-09 
+drag to position 3
+
+bungeejumping
+2015-02-01
+
+dancing
+2015-02-02
+
+singing
+2015-02-03
+
+Expected Result : Dates Clash as already dates are present
+
+newone
+2014-08-11 
+2014-07-11 
+ drag to position 3 
+
+Expected Result : Start date cant be after end date message is printed in red 
+And register link wont appear below activities.
+
+In add event
+another
+2016-08-21 
+2016-08-29 
+drag to position 3
+
+bungeejumping
+2016-08-21
+
+dancing
+2016-08-22
+
+singing
+2016-08-23
+
+Expected Result : Registered.
+
+
+
+
+IN SEARCH
+
+query: K
+Expected result : shows list of those having k in their names
+
+IN add Institution
+BITS
+goa
+College
+
+IN add Volunteer
+Shruthi
+94993939393939
+
+IN add BloodDonor
+Shruthi
+4987543987498
+A+ve
+2014-Nov-11
+
+IN add SHGworker
+Shruthi
+
+IN add Faculty
+Shruthi V
+A7A20312
+
+IN add Student
+Shruthi V
+89857656
+EveBat14
+Shikre
+
+In add Market
+EveningFleaMarket
+Bits Campus

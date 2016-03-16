@@ -1,0 +1,13 @@
+Positives of your group:
+  -> Equal work distribution.
+  -> Excellent team coordination.
+  -> Learnt how to work as a team
+
+Negatives of your group:
+  -> Last minute workload.
+  
+What would you do differently next time :
+  -> Planning well ahead of deadline dates.
+  -> Probably use GUI instead of webapp.
+  -> More people involved in code development, so that the stress on the developer is less, 
+     and the workflow is less laborious.
